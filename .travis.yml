@@ -1,0 +1,45 @@
+language: node_js # Node.js based project
+node_js:
+  - 15 # Level of Node.js to use
+cache:
+  directories:
+  - node_modules # Cache the node_modules folder for quicker build times
+script:
+  - npm run build # Runs next build
+  - npm run export # Runs next export and generates the out directory
+  - touch out/.nojekyll # Creates a file telling Github not to build the project using Jekyll
+
+deploy:
+  - provider: pages
+    #Push to different repo
+    repo: thelitblog/thelitblog.github.io
+    # Directory where your generated files are located
+    local_dir: ./out/
+    # Github security/auth token
+    github-token: $GITHUB_TOKEN
+    # Incremental commit to keep old build/files from previous deployments
+    keep-history: true
+    # Git branch on which it should deploy (master, gh-pages, foo...)
+    target_branch: inverse
+    # Reminder that I was dumb
+    skip_cleanup: true
+    on:
+      # Which branch on commit/push will trigger deployment
+      branch: inverse
+
+  - provider: pages
+    #Push to different repo
+    repo: thelitblog/thelitblog.github.io
+    # Directory where your generated files are located
+    local_dir: out
+    # Github security/auth token
+    github-token: $GITHUB_TOKEN
+    # Incremental commit to keep old build/files from previous deployments
+    keep-history: true
+    #Reminder that I was dumb
+    skip_cleanup: true
+    # Git branch on which it should deploy (master, gh-pages, foo...)
+    target_branch: main
+    on:
+      # Which branch on commit/push will trigger deployment
+      branch: master
