@@ -5,12 +5,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: 'npm' # See documentation for possible values
+    directory: '/' # Location of package manifests
     schedule:
-      interval: "daily"
-    target-branch: "inverse"
+      interval: 'daily'
+    target-branch: 'inverse'
     open-pull-requests-limit: 20
-    ignored_updates:
-      - match:
-          dependency_name: "husky"
+    ignore:
+      - dependency-name: 'husky'
