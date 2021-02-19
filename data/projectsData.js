@@ -1,19 +1,15 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What is you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'This thing',
+    description: `This thing you are reading is probably the best thing I have to showcase`,
+    imgSrc: '/static/images/vercel.png',
+    href: 'https://www.github.com/dopewind/litblog/',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'The dope site',
+    description: `Another random thing I made`,
+    imgSrc: '/static/images/portfolio.jpg',
+    href: 'https://www.dopewind.github.io/',
   },
 ]
 
