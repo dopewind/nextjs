@@ -8,8 +8,8 @@ const projectsData = [
   {
     title: 'The dope site',
     description: `Another random thing I made`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: 'https://www.dopewing.github.io/',
+    imgSrc: '/static/images/portfolio.jpg',
+    href: 'https://www.dopewind.github.io/',
   },
 ]
 
