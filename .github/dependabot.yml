@@ -10,4 +10,7 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "inverse"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 20
+    ignored_updates:
+      - match:
+          dependency_name: "husky"
