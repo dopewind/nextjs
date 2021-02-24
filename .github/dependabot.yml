@@ -11,5 +11,4 @@ updates:
       interval: 'daily'
     target-branch: 'inverse'
     open-pull-requests-limit: 20
-    ignore:
-      - dependency-name: 'husky'
+    
