@@ -62,7 +62,7 @@
     "remark-parse": "9.0.0",
     "remark-stringify": "9.0.1",
     "stylelint-config-recommended": "^3.0.0",
-    "unified": "9.2.0",
+    "unified": "9.2.1",
     "unist-util-visit": "2.0.3"
   },
   "husky": {
