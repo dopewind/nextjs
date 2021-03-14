@@ -42,7 +42,7 @@
     "webpack": "^5.25.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^10.0.7",
+    "@next/bundle-analyzer": "^10.0.8",
     "@svgr/webpack": "^5.5.0",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
