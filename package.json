@@ -40,6 +40,7 @@
     "tailwindcss": "^2.0.4",
     "tinytime": "^0.2.6",
     "webpack": "^5.28.0"
+    "webpack": "^5.25.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^10.0.9",
