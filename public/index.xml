@@ -7,14 +7,24 @@
       <language>en-us</language>
       <managingEditor>omendoesstuff@gmail.com (Karthik Vinayan)</managingEditor>
       <webMaster>omendoesstuff@gmail.com (Karthik Vinayan)</webMaster>
-      <lastBuildDate>Thu, 19 Nov 2020 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 05 May 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://thelitblog.github.io/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://thelitblog.github.io/blog/remember-it</guid>
+    <title>Remember it</title>
+    <link>https://thelitblog.github.io/blog/remember-it</link>
+    <description>Remember it</description>
+    <pubDate>Wed, 05 May 2021 00:00:00 GMT</pubDate>
+    <author>omendoesstuff@gmail.com (Karthik Vinayan)</author>
+    <category>book</category>
+  </item>
+
   <item>
     <guid>https://thelitblog.github.io/blog/2020-covid</guid>
     <title>2020 Thoughts</title>
     <link>https://thelitblog.github.io/blog/2020-covid</link>
-    <description>Agian, the title is exactly what this is about</description>
+    <description>Again, the title is exactly what this is about</description>
     <pubDate>Thu, 19 Nov 2020 00:00:00 GMT</pubDate>
     <author>omendoesstuff@gmail.com (Karthik Vinayan)</author>
     <category>blog</category><category>thoughts</category><category>rant</category>
