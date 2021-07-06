@@ -39,7 +39,7 @@
     "remark-slug": "6.0.0",
     "tailwindcss": "^2.1.2",
     "tinytime": "^0.2.6",
-    "webpack": "^5.36.2"
+    "webpack": "^5.42.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^10.2.0",
